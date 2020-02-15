@@ -17,20 +17,6 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/send_msg_1"
-            android:text="Send a Runnable to a HandlerThread"
-            android:onClick="sendRunnableToHandlerThread"/>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/send_msg_2"
-            android:text="Send a Message to a HandlerThread"
-            android:onClick="sendMessageToHandlerThread"/>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:id="@+id/send_msg_3"
             android:text="Send 4 tasks to Thread Pool"
             android:onClick="send4tasksToThreadPool"/>
